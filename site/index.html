@@ -1,59 +1,71 @@
-<!doctype html>
-<html lang = "en"
-<head>
-	<meta charset = "utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE-edge">
-	<meta name="view" content="width=device-width, initial-scale=1">
-	<title>MY second assignment    </title>
-	<link href="style.css" rel="stylesheet" type="text/css">
-	
+<!DOCTYPE html>
+<html>
 
-	</head>
-	<body>
-		<div class="container">
-  <div class="row d-flex justify-content-center">
-    <div class="col-10 pb-5 text-center">
-      <h1 class=" text-center quicksand-font header text-uppercase">Our Menu</h1>
-      <hr>
+<head>
+  <title>Coursera</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css" >
+  <link rel="stylesheet" href="mini1.css" >
+    
+</head>
+<body>
+    <header class="nav-header">
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <p class="nav-brand">Food, LLC</p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li class="text-center">
+              <a href="#chicken-div"><p class="item">Chicken</p></a>
+              <hr class="visible-xs">
+            </li>            
+            <li class="text-center beef-item">
+              <a href="#beef-div"><p class="item">Beef</p></a>
+              <hr class="visible-xs">
+            </li>
+            <li class="text-center sushi-item">
+              <a href="#sushi-div"><p class="item">Sushi</p></a>
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </nav>
+    </header>
+<h1 class="text-center">Our Menu</h1>
+
+<div class="row">
+  <div class="divbox col-lg-4 col-md-6 col-sm-12">
+    <div class="container">
+      <p class="titlebox" id="box1">Chicken</p>
+      <p class="boxx" id="boxx1">A chicken (Gallus gallus domesticus) is a kind of domesticated bird. It is raised in many places for its meat and eggs. They are usually kept by humans as livestock. Most breeds of chickens can fly for a short distance.</p>
     </div>
   </div>
-  <div class="row d-flex justify-content-center">
-    <div class="col-10 pb-5 text-center">
-      <h4 class="text-center quicksand-font text-uppercase">Chicken</h4>
-      <p class="text-uppercase">Oysters and Pearls</p>
-      <p class="text-uppercase">Sabayon of pearl tapioca with island greek oysters</p>
-      <p class="text-uppercase">White Sturgeon Caviar</p>
+  <div class="divbox col-lg-4 col-md-6 col-sm-12">
+    <div class="container">
+      <p class="titlebox" id="box2">Beef</p>
+      <p class="boxx" id="boxx2">Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times. Beef is a source of high-quality protein and nutrients.</p>
     </div>
   </div>
-  <div class="row d-flex justify-content-center">
-    <div class="col-10 pb-5 text-center">
-      <h4 class="text-center quicksand-font text-uppercase">First Course</h4>
-      <p class="text-uppercase">Chantenay Carrot Tofu</p>
-      <p class="text-uppercase">Hawaiian Heart of Peach Pea and Lime</p>
-    </div>
-  </div>
-  <div class="row d-flex justify-content-center">
-    <div class="col-10 pb-5 text-center">
-      <h4 class="text-center quicksand-font text-uppercase">Main Course</h4>
-      <p class="text-uppercase">Slow Cook Fillet Of Pacific Yellowtail</p>
-      <p class="text-uppercase">Compress Cucumbers, Avocado Mousse, And Garden Celery</p>
-    </div>
-  </div>
-  <div class="row d-flex justify-content-center">
-    <div class="col-10 pb-5 text-center">
-      <h4 class="text-center quicksand-font text-uppercase">Dessert</h4>
-      <p class="text-uppercase">Chocolate Soufflet</p>
-      <p class="text-uppercase">Strawberry and Vanilla Sorbet</p>
-    </div>
-  </div>
-  <div class="row d-flex justify-content-center">
-    <div class="col-10 pb-5 text-center">
-      <h4 class="text-center quicksand-font text-uppercase">Wine</h4>
-      <p class="text-uppercase">White: Reisling Chardonnay</p>
-      <p class="text-uppercase">Red: Mary Rivers, Pinot Noir, Sonoma Coast</p>
+  <div class="divbox col-lg-4 col-md-12 col-sm-12">
+    <div class="container">
+      <p class="titlebox" id="box3">Sushi</p>
+      <p class="boxx" id="boxx3">Sushi is a Japanese dish of prepared vinegared rice usually with some. They are often made with two, three, or more fillings that are chosen for their complementary tastes and colors.</p>
     </div>
   </div>
 </div>
-	</body>
-	</html>
 
+</body>
+</html>
